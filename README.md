@@ -5,5 +5,5 @@ Tugas
 3. Apa perbedaan antara method yang mengembalikan nilai dan yang tidak?
 4. Bagaimana method berinteraksi dengan atribut dalam kelas?
 5. Pada percobaan 1, definisikan bagian kode program sesuai prinsip SOLID.
-6. Pada percobaan 1, definisikan bagian kode program sesuai prinsip SOLID.
+6. Compile program pada percobaan 2 dan 3 dan lakukan analisa anda.
 
