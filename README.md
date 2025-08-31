@@ -36,6 +36,7 @@ Subclass harus bisa menggantikan superclass tanpa merusak program. Dalam kelas P
 Interface sebaiknya dibuat spesifik sesuai kebutuhan, bukan interface besar yang berisi banyak method. Jika Puppy membutuhkan perilaku tambahan seperti play atau train, maka dibuat interface khusus misalnya Playable, bukan dicampur ke dalam satu interface umum.
 - Dependency Inversion Principle (DIP)
 Program harus bergantung pada abstraksi, bukan pada implementasi konkret. Jika Puppy berhubungan dengan layanan eksternal (misalnya makanan), maka ia sebaiknya bergantung pada interface FoodService, bukan langsung pada kelas implementasi tertentu.
+
 Jadi, pada percobaan 1:
 - Kelas Puppy sudah sesuai dengan SRP karena hanya fokus pada data dan perilaku anak anjing.
 - Kelas ini juga siap untuk memenuhi OCP dan LSP bila dikembangkan lebih lanjut dengan subclass.
@@ -47,6 +48,7 @@ Analisis percobaan 2
 Terdapat method cetak() yang didefinisikan sebagai static void. 
 - void berarti method tidak mengembalikan data, hanya menjalankan perintah (misalnya menampilkan teks).
 - static berarti method dapat dipanggil langsung dari main() tanpa membuat objek. 
+
 Hal ini membuktikan bahwa static void method dapat dipanggil tanpa objek dan berfungsi untuk menampilkan perintah, bukan mengembalikan nilai.
 Awalnya program tidak berjalan karena kesalahan penulisan main (public void static), namun setelah diperbaiki menjadi public static void main(String[] args), program berhasil dikompilasi dan dijalankan. 
 
