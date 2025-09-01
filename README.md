@@ -30,8 +30,7 @@ Definisi Percobaan 1 sesuai Prinsip SOLID
 Pada percobaan 1, kelas Puppy hanya memiliki satu tanggung jawab yaitu merepresentasikan data dan perilaku seekor anak anjing (name, age).
 - dalam code:
 
-public void setAge(int age){
-
+public void setAge(int age) {
     puppyAge = age;    
 }
 public int getAge () {
