@@ -28,6 +28,16 @@ fungsinya.
 Definisi Percobaan 1 sesuai Prinsip SOLID
 - Single Responsibility Principle (SRP)
 Pada percobaan 1, kelas Puppy hanya memiliki satu tanggung jawab yaitu merepresentasikan data dan perilaku seekor anak anjing (name, age).
+- dalam code: 
+public void setAge(int age){
+    puppyAge = age;    
+}
+
+public int getAge () {
+    System.out.println("Puppy's age is :" + puppyAge);
+    return puppyAge;      
+}
+setAge dan getAge hanya fokus pada satu tanggung jawab: mengatur dan mengembalikan umur.
 - Open/Closed Principle (OCP)
 Kelas harus dapat diperluas tanpa mengubah kode aslinya. Dalam Kelas Puppy belum ada tapiu bisa dikembangkan menjadi subclass lain (misalnya BulldogPuppy) tanpa harus mengubah kode di kelas Puppy.
 - Liskov Substitution Principle (LSP)
