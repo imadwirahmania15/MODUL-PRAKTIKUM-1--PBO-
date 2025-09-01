@@ -6,6 +6,7 @@ Kelas merupakan salah satu konsep PBO yaitu sekumpulan entitas berupa data (atri
 # 2. Bagaimana cara kerja atribut dan method dalam kelas? 
 Atribut adalah data (variabel) dari suatu objek, misalnya pada kelas mobil, atributnya bisa berupa warna, merk, dan tahun.  
 Cara kerja Atribut menyimpan data yang menjadi identitas atau informasi dari objek tersebut.
+
 Method adalah tindakan atau perilaku yang bisa dilakukan suatu objek, biasanya digunakan untuk mengakses data, misalnya pada kelas Mobil, methodnya bisa berupa mengemudi, mundur, mengerem, dll
 Cara kerja method adalah menjalankan aksi sesuai dengan perintah yang diberikan objek, sehingga objek dapat berperilaku sesuai fungsi yang sudah didefinisikan dalam kelas.
 
