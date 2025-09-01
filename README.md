@@ -44,7 +44,8 @@ hanya fokus pada satu tanggung jawab mengatur dan mengembalikan umur.
 Kelas harus dapat diperluas tanpa mengubah kode aslinya. Dalam Kelas Puppy belum ada tapiu bisa dikembangkan menjadi subclass lain (misalnya BulldogPuppy) tanpa harus mengubah kode di kelas Puppy.
 - Liskov Substitution Principle (LSP)
 Subclass harus bisa menggantikan superclass tanpa merusak program. Dalam kelas Puppy Jika dibuat kelas turunan BulldogPuppy, maka ia dapat menggantikan Puppy dan program tetap berjalan dengan baik.
--Interface Segregation Principle (ISP)
+
+- Interface Segregation Principle (ISP)
 Interface sebaiknya dibuat spesifik sesuai kebutuhan, bukan interface besar yang berisi banyak method. Jika Puppy membutuhkan perilaku tambahan seperti play atau train, maka dibuat interface khusus misalnya Playable, bukan dicampur ke dalam satu interface umum.
 - Dependency Inversion Principle (DIP)
 Program harus bergantung pada abstraksi, bukan pada implementasi konkret. Jika Puppy berhubungan dengan layanan eksternal (misalnya makanan), maka ia sebaiknya bergantung pada interface FoodService, bukan langsung pada kelas implementasi tertentu.
