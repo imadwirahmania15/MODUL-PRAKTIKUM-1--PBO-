@@ -38,6 +38,7 @@ public int getAge () {
     return puppyAge;      
 }
   setAge dan getAge 
+-- 
 hanya fokus pada satu tanggung jawab mengatur dan mengembalikan umur.
 - Open/Closed Principle (OCP)
 Kelas harus dapat diperluas tanpa mengubah kode aslinya. Dalam Kelas Puppy belum ada tapiu bisa dikembangkan menjadi subclass lain (misalnya BulldogPuppy) tanpa harus mengubah kode di kelas Puppy.
