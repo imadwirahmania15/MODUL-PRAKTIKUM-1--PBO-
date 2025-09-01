@@ -28,11 +28,12 @@ fungsinya.
 Definisi Percobaan 1 sesuai Prinsip SOLID
 - Single Responsibility Principle (SRP)
 Pada percobaan 1, kelas Puppy hanya memiliki satu tanggung jawab yaitu merepresentasikan data dan perilaku seekor anak anjing (name, age).
-- dalam code: 
+- dalam code:
+
 public void setAge(int age){
+
     puppyAge = age;    
 }
-
 public int getAge () {
     System.out.println("Puppy's age is :" + puppyAge);
     return puppyAge;      
